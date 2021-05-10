@@ -1,0 +1,12 @@
+.ut {
+    width: 200px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}

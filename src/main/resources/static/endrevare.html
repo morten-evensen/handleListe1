@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endre vare</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Endre vare</h2>
+    <form id="form" action="#" onsubmit="return false;">
+        <input id="id">
+        <div class="form-group">
+            <div class="col-xs-4">
+                <label for="vare">Vare</label>
+                <input value="Mais" type="text" id="vare" class="form-control input-group-lg">
+            </div>
+            <div class="col-xs-4">
+                <label for="antall">Antall</label>
+                <input value="1" type="text" id="antall" class="form-control input-group-lg">
+            </div>
+
+            <button class="btn btn-success" onclick="endreVare()">Endre vare med knapp</button>
+        </div>
+    </form>
+</div>
+<script src="endreVare.js"></script>
+</body>
+</html>
